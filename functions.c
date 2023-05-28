@@ -35,7 +35,7 @@ int print_string(va_list diff, char buffer[],
 	int flags, int width, int precision, int size)
 {
 	int length = 0, i;
-	char *str = va_arg(types, char *);
+	char *str = va_arg(diff, char *);
 
 	UNUSED(buffer);
 	UNUSED(flags);
